@@ -11,6 +11,7 @@
 		004F6EAF29DAC62500A55FB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F6EAE29DAC62500A55FB7 /* ContentView.swift */; };
 		004F6EB129DAC62600A55FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F6EB029DAC62600A55FB7 /* Assets.xcassets */; };
 		004F6EB429DAC62600A55FB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F6EB329DAC62600A55FB7 /* Preview Assets.xcassets */; };
+		004F6EBB29DACA8F00A55FB7 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F6EBA29DACA8F00A55FB7 /* FavoriteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		004F6EAE29DAC62500A55FB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		004F6EB029DAC62600A55FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004F6EB329DAC62600A55FB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		004F6EBA29DACA8F00A55FB7 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		004F6EAB29DAC62500A55FB7 /* FavoriteBook */ = {
 			isa = PBXGroup;
 			children = (
+				004F6EBA29DACA8F00A55FB7 /* FavoriteModel.swift */,
 				004F6EAC29DAC62500A55FB7 /* FavoriteBookApp.swift */,
 				004F6EAE29DAC62500A55FB7 /* ContentView.swift */,
 				004F6EB029DAC62600A55FB7 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004F6EBB29DACA8F00A55FB7 /* FavoriteModel.swift in Sources */,
 				004F6EAF29DAC62500A55FB7 /* ContentView.swift in Sources */,
 				004F6EAD29DAC62500A55FB7 /* FavoriteBookApp.swift in Sources */,
 			);
